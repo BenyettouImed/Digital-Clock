@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
+</head>
+<body class="min-h-screen gradient-bg-color place-content-center">
+    <main class="max-w-2xl mx-auto">
+        <section class="flex flex-row justify-between relative">
+            <div class="bg-red-400 h-28 w-28"></div>
+            <div class="bg-sky-600 h-28 w-28 rounded-full mt-16"></div>
+        </section>
+        <div class="flex flex-row gap-8 absolute bg-white/20 py-4 px-16 sm:px-24  place-content-center translate-x-2 sm:translate-x-20 -translate-y-36"> <!--  !!!blur might be useful!!! -->
+            <div class="flex flex-col">
+                <h1 id = "hours" class="text-4xl sm:text-5xl font-medium text-white"></h1>
+                <p class="text-white pt-2">HOURS</p>
+            </div>
+            
+            <h1   class="text-4xl sm:text-5xl font-medium text-white">:</h1>
+
+            <div class="flex flex-col">
+                <h1 id="mins"  class="text-4xl sm:text-5xl font-medium text-white"></h1>
+                <p class="text-white pt-2">MINUTES</p>
+            </div>
+
+            <h1 class="text-4xl sm:text-5xl font-medium text-white">:</h1>
+
+            <div class="flex flex-col">
+                <h1 id="secs" class="text-4xl sm:text-5xl font-medium text-white"></h1>
+                <p class="text-white pt-2" >SECONDS</p>
+            </div>
+            
+            
+           
+            
+            
+           
+        </div>
+    </main>
+    
+</body>
+</html>
